@@ -2,7 +2,7 @@ package calculations;
 import java.util.*;
 import main.MyCalculator;
 
-public class CalculatorMethods extends MyCalculator { //Mycalculator is able to use this class
+public class CalculatorMethods extends MyCalculator { //Child class implements parrent class
 	public static double sum; //sum is usable to all methods 
 
   
