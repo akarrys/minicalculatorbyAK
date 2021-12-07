@@ -31,7 +31,7 @@ public class MyCalculator {
 		 two = keyboard.nextDouble(); //store user input double num 
 		
 		System.out.println("Please type what operator you would like to use.ex...+,-,*,/");
-		 symbol = keyboard.findWithinHorizon(".", 0).charAt(0); //finds what user will enter after string input?
+		 symbol = keyboard.findWithinHorizon(".", 0).charAt(0); //finds what user will enter after one blank string pattern
 		
 		 
 		 if (symbol == '+') {
